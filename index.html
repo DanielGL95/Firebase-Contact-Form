@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">    <title>Web Design</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="brand"><span>Contact </span> Form Design</h1>
+
+        <div class="wrapper">
+            <div class="company-info">
+                <h3>Contact Form Design</h3>
+                <ul>
+                    <li> <i class="fas fa-location-arrow"></i>44 Street</li>
+                    <li><i class="fas fa-phone"></i>555-555-5555</li>
+                    <li><i class="far fa-envelope"></i>test@form.test</li>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <h3>Email Us</h3>
+                <h3 class="alert">Your form has been successfully submited</h3>
+                <form id="contact-form">
+                    <p>
+                        <label >Name</label>
+                        <input id="name" type="text" name="name">
+                    </p>
+                    <p>
+                        <label >Company</label>
+                        <input id="company" type="text" name="company">
+                    </p>
+                    <p>
+                        <label >Email Adress</label>
+                        <input id="email" type="emial" name="email">
+                    </p>
+                    <p>
+                        <label >Phone Number</label>
+                        <input id="phone" type="phone" name="phone">
+                    </p>
+                    <p class="full">
+                        <label >message</label>
+                        <textarea id="message" rows="5" type="text" name="message"></textarea>
+                    </p>
+
+                    <p class="full">
+                       <button id="submit"><p>Submit</p></button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
+    <script src="/main.js"></script>
+</body>
+</html>
